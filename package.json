@@ -1,0 +1,19 @@
+{
+  "name": "mrs-ci-rdv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:roarth/mrs-ci-rdv.git",
+  "author": "Mirete Benoit <ben@mirete.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "playwright": "^1.24.2",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "run": "npx playwright test "
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.24.2"
+  }
+}
